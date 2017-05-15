@@ -31,9 +31,9 @@ In this project, you'll use generative adversarial networks to generate new imag
 
 5. Run the project:
 
-        floyd run --gpu --env tensorflow-1.0 --mode jupyter
+        floyd run --gpu --env tensorflow-1.0 --mode jupyter --data R5KrjnANiKVhLWAkpXhNBe
 
-    It will be run on a machine with GPU (`--gpu`), using a Tenserflow environment (`--env tensorflow`), as a Jupyter notebook (`--mode jupyter`).
+    It will be run on a machine with GPU (`--gpu`), using a Tenserflow environment (`--env tensorflow`), as a Jupyter notebook (`--mode jupyter`), input data will be taken from `R5KrjnANiKVhLWAkpXhNBe` which is already hostel at `floydhub`.
     
 6. Wait for the Jupyter notebook to become available and then access the URL displayed in the terminal (described as "path to jupyter notebook"). You will see the notebook.
 
